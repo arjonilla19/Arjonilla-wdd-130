@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Wireframe </title>
+    </head>
+    <body>
+        <header>
+            <div id="logo-container"
+                <img class='logo'src= >
+            </div>
+        <nav>
+            <ul>
+                <li> Page 1</li>
+                <li> Page 2</li>
+            <ul>
+         </nav>
+        </header>
+        <section>
+            <div class="banner-controls">
+                <span class="go-left"> <--/span>
+                    
+
+
+
