@@ -1,0 +1,57 @@
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+body .content{
+    max-width: 1200px;
+    margin: 0:auto;
+    padding:20px;
+}
+
+header{
+    background-color: red;
+}
+
+main{
+    flex:1;
+    background-color: aquamarine;
+}
+
+footer{
+    background-color: red;
+}
+
+main article{
+    margin-bottom:0px;
+
+}
+
+@media print (min-width: 1024px) {
+    header{
+        background-color: blueviolet;
+    }
+    main{
+        background-color: blueviolet;
+    }
+    main .content{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:20px;
+    }
+    main article {
+        margin-bottom: initial;
+    }
+    footer{
+        background-color: blueviolet;
+    }
+}
